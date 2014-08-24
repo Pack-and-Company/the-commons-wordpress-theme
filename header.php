@@ -25,4 +25,6 @@
 
 <body <?php body_class(); ?>>
 
+<div class="wrapper">
+
 <?php wp_nav_menu( array('theme_location' => 'primary') ); ?>
