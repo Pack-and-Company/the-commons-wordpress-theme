@@ -11,7 +11,7 @@
     ?>
   </title>
 
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,900,100italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,400,900,100italic' rel='stylesheet' type='text/css'>
   
   <link href="<?=get_template_directory_uri();?>/css/reset.css" rel="stylesheet" media="screen" type="text/css"/>
   <link href="<?=get_template_directory_uri();?>/css/prettyPhoto.css" rel="stylesheet" media="screen" type="text/css"/>
