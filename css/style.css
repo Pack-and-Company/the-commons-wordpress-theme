@@ -73,7 +73,7 @@ a {
 	text-decoration: none;
 }
 
-a img {
+a > img {
   border: none;
 }
 
