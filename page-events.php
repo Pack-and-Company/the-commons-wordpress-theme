@@ -32,7 +32,7 @@ Template Name: Events
 			get_post_meta($event->ID, '_event_time', true), 
 			get_post_meta($event->ID, '_event_price', true)
 		);
-		
+
         ?>
 
 		<dl class="event-item">
@@ -43,7 +43,7 @@ Template Name: Events
 			</dt>
 			<dd class="event-info">
 				<h2><?=$event->post_title;?></h2>
-				<p><?=implode($post_meta);?></p>
+				<p><?=implode(', ', $post_meta);?></p>
 				<p><?=$event->post_content;?></p>
 			</dd>
 		</dl>
