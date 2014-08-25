@@ -171,16 +171,16 @@ h1 {
 
 
 p { 
-	margin-bottom: 10px; 
-	color: #fafaea;
 	font-size: 0.9em;
 	line-height: 1.8em;
-	margin: 0;
+	color: #fafaea;
+	text-transform: uppercase;
+	margin-bottom: 10px; 
 }
 
 .hero-text p {
 	-webkit-font-smoothing: antialiased;
-	text-transform: uppercase;
+	margin: 0;
 }
 
 .footer p { 
