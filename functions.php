@@ -6,6 +6,8 @@ register_sidebar( array('name' => 'Sidebar') );
 add_theme_support( 'automatic-feed-links' );
 add_theme_support( 'post-thumbnails' );
 
+include(TEMPLATEPATH . '/events-custom-post.php');
+
 function my_init_method() {
   if(!is_admin()) {
     wp_enqueue_script( 'jquery' );
