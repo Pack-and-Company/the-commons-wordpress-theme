@@ -20,5 +20,5 @@ jQuery(document).ready(function($){
 	}
 
 	init_prettyPhoto('.gallery');
-	
-}
+
+});
