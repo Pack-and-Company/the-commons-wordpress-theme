@@ -183,7 +183,8 @@ p {
 	margin: 0;
 }
 
-.footer p { 
+.footer p {
+	-webkit-font-smoothing: auto;
 	text-transform: none;
 	font-weight: 100; 
 }
