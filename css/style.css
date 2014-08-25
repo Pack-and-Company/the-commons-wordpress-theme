@@ -171,6 +171,7 @@ h1 {
 
 
 p { 
+	-webkit-font-smoothing: antialiased;
 	font-size: 0.9em;
 	line-height: 1.8em;
 	color: #fafaea;
@@ -179,7 +180,6 @@ p {
 }
 
 .hero-text p {
-	-webkit-font-smoothing: antialiased;
 	margin: 0;
 }
 
