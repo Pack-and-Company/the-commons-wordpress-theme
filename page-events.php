@@ -27,7 +27,7 @@ Template Name: Events
 
         printf('<dl class="event-item">');
 		printf(
-			'<dt class="event-image"><a href="%s" title="%s"><img src="%s" width="190" height="269" alt="%s"></a></dt>',
+			'<dt class="event-image"><a href="%s" title="%s"><img src="%s" width="190" height="269" alt="%s" /></a></dt>',
 			wp_get_attachment_url(get_post_thumbnail_id($event->ID)),
 			$event->post_content,
 			wp_get_attachment_url(get_post_thumbnail_id($event->ID)),
