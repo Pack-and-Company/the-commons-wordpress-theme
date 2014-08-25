@@ -195,6 +195,10 @@ p {
 	line-height: 1.8em;
 }
 
+p {
+	margin-bottom: 10px;
+}
+
 .hero-text strong {
 	font-weight: 900;
 }
