@@ -73,7 +73,7 @@ a {
 	text-decoration: none;
 }
 
-.gallery img {
+a < img {
   border: none;
 }
 
