@@ -170,19 +170,20 @@ h1 {
 }
 
 
-p { margin-bottom: 10px; }
-
-.hero-text p {
-	-webkit-font-smoothing: antialiased;
-	text-transform: uppercase;
+p { 
+	margin-bottom: 10px; 
 	color: #fafaea;
 	font-size: 0.9em;
 	line-height: 1.8em;
 	margin: 0;
 }
 
+.hero-text p {
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+}
+
 .footer p { 
-	-webkit-font-smoothing: normal;
 	text-transform: none;
 	font-weight: 100; 
 }
