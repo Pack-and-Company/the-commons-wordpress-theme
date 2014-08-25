@@ -27,24 +27,28 @@ Template Name: Events
     foreach ( $events as $event ) {
         setup_postdata($event);
 
-        printf('<dl class="event-item">');
-		printf(
-			'<dt class="event-image"><a href="%s" title="%s"><img src="%s" width="190" height="269" alt="%s" /></a></dt>',
-			wp_get_attachment_url(get_post_thumbnail_id($event->ID)),
-			$event->post_content,
-			wp_get_attachment_url(get_post_thumbnail_id($event->ID)),
-			$event->post_title
+        $post_meta = array(
+			get_post_meta($event->ID, '_event_date', true), 
+			get_post_meta($event->ID, '_event_time', true), 
+			get_post_meta($event->ID, '_event_price', true)
 		);
-		printf(
-			'<dd class="event-info"><strong>%s</strong><br>%s</dd>',
-			$event->post_title,
-			implode(', ', array(
-							  get_post_meta($event->ID, '_event_date', true), 
-							  get_post_meta($event->ID, '_event_time', true), 
-							  get_post_meta($event->ID, '_event_price', true)
-						 ))
-		);
-        printf('</dl>');
+		
+        ?>
+
+		<dl class="event-item">
+			<dt class="event-image">
+				<a href="<?=wp_get_attachment_url(get_post_thumbnail_id($event->ID));?>">
+				<img src="<?=wp_get_attachment_url(get_post_thumbnail_id($event->ID));?>" width="190" height="269" alt="<?=$event->post_title;?>" />
+				</a>
+			</dt>
+			<dd class="event-info">
+				<h2><?=$event->post_title;?></h2>
+				<p><?=implode($post_meta);?></p>
+				<p><?=$event->post_content;?></p>
+			</dd>
+		</dl>
+
+		<?php
     }
     wp_reset_postdata();
     ?>
