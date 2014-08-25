@@ -174,3 +174,10 @@ h1 {
 .hero-text strong {
 	font-weight: 900;
 }
+
+iframe {
+	display: block;
+	height: 500px;
+	width: 500px;
+	margin-right: 293px;
+}
