@@ -197,6 +197,7 @@ strong { font-weight: 900; }
 
 /* Gallery */
 
+.gallery { overflow: auto; }
 .gallery br { display: none; }
 
 .gallery-item {
