@@ -45,6 +45,7 @@ body {
 }
 
 .footer {
+	clear: both;
 	padding-top: 10px;
 	margin-top: 20px;
 	border-top: 1px solid #cecece;
@@ -180,4 +181,27 @@ iframe.eveve {
 	height: 500px;
 	width: 500px;
 	margin-left: 293px;
+}
+
+/* Gallery */
+
+.gallery br {
+	display: none;
+}
+
+.gallery-item {
+	width: 314px;
+	height: 209px;
+	overflow: hidden;
+	float: left;
+	margin: 0 9px 9px 0;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.298039) 1px 1px 2px 1px;
+}
+
+.gallery a {
+	display: block;
+}
+
+.gallery dl:nth-of-type(3n) {
+	margin: 0 0 9px 0;
 }
