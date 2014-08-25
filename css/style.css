@@ -128,6 +128,15 @@ a {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+h2 {
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
 .footer {
 	line-height: 25px;
 }
@@ -136,6 +145,8 @@ a {
 	font-size: 16px;
 	font-weight: bold;
 	text-transform: uppercase;
+	text-align: left;
+	padding-bottom: 0;
 }
 
 .footer p {
@@ -149,11 +160,16 @@ a {
 	line-height: 16px;
 }
 
-h2 {
-	font-size: 22px;
+.hero-text {
+	-webkit-font-smoothing: antialiased;
+	font-weight: 400;
 	font-style: normal;
-	font-weight: 100;
 	text-transform: uppercase;
-	text-align: center;
-	padding-bottom: 10px;
+	color: #fafaea;
+	font-size: 0.9em;
+	line-height: 1.8em;
+}
+
+.hero-text strong {
+	font-weight: 900;
 }
