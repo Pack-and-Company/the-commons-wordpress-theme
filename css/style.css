@@ -20,7 +20,9 @@ body {
 }
 
 .menu-item a img  {
-	width: 150px !important;
+	/* !important because we need to override the height & width set in the img tag */
+	max-width: 90% !important;
+	height: auto !important;
 }
 
 .menu li:first-of-type {
