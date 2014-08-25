@@ -142,7 +142,8 @@ a {
  	background-color: rgba(0, 0, 0, 0.4);
 }
 
-.menu a[href="#"]:hover {
+.menu a[href="#"]:hover,
+.menu li:first-of-type a:hover  {
 	background: none;
 }
 
