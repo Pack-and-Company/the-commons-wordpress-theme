@@ -127,7 +127,8 @@ a {
 	text-decoration: none;
 }
 
-.footer a { border-bottom: 1px dotted #fff; }
+.footer a,
+.copyright a { border-bottom: 1px dotted #fff; }
 
 .menu a {
   -webkit-font-smoothing: antialiased;
