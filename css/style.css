@@ -184,7 +184,8 @@ h1 {
 	line-height: 16px;
 }
 
-.hero-text {
+.hero-text,
+p {
 	-webkit-font-smoothing: antialiased;
 	font-weight: 400;
 	font-style: normal;
