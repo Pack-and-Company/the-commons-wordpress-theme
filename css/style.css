@@ -169,7 +169,6 @@ h1 {
 	padding-bottom: 0;
 }
 
-
 p { 
 	-webkit-font-smoothing: antialiased;
 	font-size: 0.9em;
@@ -187,6 +186,10 @@ p {
 	-webkit-font-smoothing: auto;
 	text-transform: none;
 	font-weight: 100; 
+}
+
+.copyright p {
+	-webkit-font-smoothing: auto;
 }
 
 strong { font-weight: 900; }
