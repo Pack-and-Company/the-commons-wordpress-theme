@@ -43,7 +43,7 @@ Template Name: Events
 			</dt>
 			<dd class="event-info">
 				<h2><?=$event->post_title;?></h2>
-				<p><?=implode(', ', $post_meta);?></p>
+				<p><?=implode(', ', array_filter($post_meta));?></p>
 				<p><?=$event->post_content;?></p>
 			</dd>
 		</dl>
