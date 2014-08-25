@@ -20,5 +20,6 @@ jQuery(document).ready(function($){
 	}
 
 	init_prettyPhoto('.gallery');
+	init_prettyPhoto('.events-list')
 
 });
