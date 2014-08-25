@@ -48,9 +48,11 @@ body {
 	padding-top: 10px;
 	margin-top: 20px;
 	border-top: 1px solid #cecece;
+	overflow: auto;
 }
 
 .footer li:first-of-type {
+	clear: both;
 	width: 210px;
 }
 
@@ -60,12 +62,18 @@ body {
 	width: 375px;
 }
 
+.copyright {
+	height: 25px;
+	margin-top: 10px;
+}
+
 /* Typography */
 
 body {
 	font-family: Lato, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	letter-spacing: 1px;
 	color: #fff;
 }
 
@@ -82,7 +90,6 @@ a {
 .menu {
 	font-size: 1em;
 	line-height: 22px;
-	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
@@ -109,7 +116,6 @@ a {
 
 .footer {
 	line-height: 25px;
-	letter-spacing: 1px;
 }
 
 .footer h2 {
@@ -120,6 +126,13 @@ a {
 
 .footer p {
 	font-weight: 100;
+}
+
+.copyright {
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 100;
+	line-height: 16px;
 }
 
 
