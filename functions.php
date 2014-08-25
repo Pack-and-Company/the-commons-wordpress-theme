@@ -8,6 +8,11 @@ add_theme_support( 'post-thumbnails' );
 
 include(TEMPLATEPATH . '/events-custom-post.php');
 
+function remove_gallery_css( $css ) {
+	return preg_replace( "#<style type='text/css'>(.*?)</style>#s", '', $css );
+}
+add_filter( 'gallery_style', 'remove_gallery_css' );
+
 function my_init_method() {
   if(!is_admin()) {
     wp_enqueue_script( 'jquery' );
