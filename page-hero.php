@@ -11,7 +11,7 @@ Template Name: Hero Image
 <div class="hero-image">
 	<?php
 	if ( has_post_thumbnail() ) {
-		the_post_thumbnail();
+		the_post_thumbnail('full');
 	}
 	?>
 	<div class="hero-text">
