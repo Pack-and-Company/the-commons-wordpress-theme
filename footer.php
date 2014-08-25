@@ -1,3 +1,4 @@
+<?php get_sidebar(); ?>
 
 <div class="copyright">
 	<p>&copy; <?=date(Y);?> <a href="<?=get_home_url();?>"><?=bloginfo( 'name' );?></a></p>

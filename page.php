@@ -4,7 +4,4 @@
   <?php the_content(); ?>
 <?php endwhile; wp_reset_query(); ?>
 
-<div class="footer">
-	<?php get_sidebar(); ?>
-</div>
 <?php get_footer(); ?>
