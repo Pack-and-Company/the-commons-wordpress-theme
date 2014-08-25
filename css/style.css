@@ -83,6 +83,18 @@ body {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
+iframe.eveve {
+	display: block;
+	height: 500px;
+	width: 500px;
+	margin-left: 293px;
+}
+
+iframe.pdf {
+	width:960px;
+	height:500px;
+}
+
 /* Typography */
 
 body {
@@ -174,13 +186,6 @@ h1 {
 
 .hero-text strong {
 	font-weight: 900;
-}
-
-iframe.eveve {
-	display: block;
-	height: 500px;
-	width: 500px;
-	margin-left: 293px;
 }
 
 /* Gallery */
