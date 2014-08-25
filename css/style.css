@@ -67,6 +67,20 @@ body {
 	margin-top: 10px;
 }
 
+.hero-image img {
+	width: 98%;
+	box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+	margin-left: 1%;
+	border-radius: 2px;
+}
+
+.hero-text {
+	position: absolute;
+	top: 10px;
+	padding: 20px 20px 20px 40px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
 /* Typography */
 
 body {
