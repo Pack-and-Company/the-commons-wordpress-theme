@@ -135,4 +135,11 @@ a {
 	line-height: 16px;
 }
 
-
+h2 {
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 10px;
+}
