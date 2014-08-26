@@ -197,6 +197,10 @@ iframe.pdf {
 
 .content strong { font-weight: 900; }
 
+.content img {
+	-webkit-box-shadow: rgba(0, 0, 0, 0.298039) 1px 1px 2px 1px;
+}
+
 /* Gallery */
 
 .gallery { overflow: auto; }
@@ -209,6 +213,15 @@ iframe.pdf {
 	float: left;
 	margin: 0 9px 9px 0;
 	-webkit-box-shadow: rgba(0, 0, 0, 0.298039) 1px 1px 2px 1px;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: auto;
+}
+
+.gallery-item .portrait img {
+	margin-top: -25%;
 }
 
 .gallery a { display: block; }
