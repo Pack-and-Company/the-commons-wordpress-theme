@@ -38,7 +38,7 @@ Template Name: Events
 		<dl class="event-item">
 			<dt class="event-image">
 				<a href="<?=wp_get_attachment_url(get_post_thumbnail_id($event->ID));?>">
-					<?=get_the_post_thumbnail($event->ID, array(190,269);?>
+					<?=get_the_post_thumbnail($event->ID, array(190,269));?>
 				</a>
 			</dt>
 			<dd class="event-info">
