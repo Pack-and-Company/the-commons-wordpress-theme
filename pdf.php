@@ -5,6 +5,6 @@
 	  <h1><?php the_title(); ?></h1>
 	  <iframe src="http://docs.google.com/gview?url=<?= wp_get_attachment_url( $post->id ); ?>&embedded=true" class="pdf" frameborder="0"></iframe>
 	<?php endwhile; wp_reset_query(); ?>
-<div class="content">
+</div>
 
 <?php get_footer(); ?>
